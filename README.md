@@ -22,7 +22,7 @@ This project highlights foundational deep learning techniques, such as data norm
 
 ### Titanic: Machine Learning from Disaster
 
-[Github](https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Titanic.ipynb) [nbviewer](http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Titanic.ipynb)
+
 
 Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem: based on information about Titanic passengers we predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic).
 Titanic dataset provides interesting opportunities for feature engineering.
@@ -44,7 +44,7 @@ The dataset has a lot of features and many missing values. This gives interestin
 ### Bag of Words Meets Bags of Popcorn
 
 
-Bag of Words Meets Bags of Popcorn is a sentimental analysis problem. Based on texts of reviews we predict whether they are positive or negative. General description and data are available on [Kaggle](https://www.kaggle.com/c/word2vec-nlp-tutorial).
+Bag of Words Meets Bags of Popcorn is a sentimental analysis problem. Based on texts of reviews we predict whether they are positive or negative. General description and data
 The data provided consists of raw reviews and class (1 or 2), so the main part is cleaning the texts.
 
 ### NLP with Python: exploring Fate/Zero
@@ -53,13 +53,11 @@ Natural language processing in machine learning helps to accomplish a variety of
 
 ### NLP. Text generation with Markov chains
 
-[Github](https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Markov_chain_nlp.ipynb) [nbviewer](http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Markov_chain_nlp.ipynb)
 
 This notebook shows how a new text can be generated based on a given corpus using an idea of Markov chains. I start with simple first-order chains and with each step improve model to generate better text.
 
 ### NLP. Text summarization
 
-[Github](https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Summarize.ipynb) [nbviewer](http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Summarize.ipynb)
 
 This notebook shows how text can be summarized choosing several most important sentences from the text. I explore various methods of doing this based on a news article.
 
@@ -73,9 +71,8 @@ Clustering is an approach to unsupervised machine learning. Clustering with KMea
 
 ### Feedforward neural network with regularization
 
-[Github](https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/NN_GGG.ipynb) [nbviewer](http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/NN_GGG.ipynb)
 
-This is a simple example of feedforward neural network with regularization. It is based on Andrew Ng's lectures on Coursera. I used data from Kaggle's challenge "Ghouls, Goblins, and Ghosts... Boo!", it is available [here](https://www.kaggle.com/c/ghouls-goblins-and-ghosts-boo).
+This is a simple example of feedforward neural network with regularization. It is based on Andrew Ng's lectures on Coursera. I used data from Kaggle's challenge "Ghouls, Goblins, and Ghosts... Boo!".
 
 ## Data exploration and analysis
 
@@ -87,7 +84,6 @@ I have a dataset with telematic information about 10 cars driving during one day
 
 ### Collaborative filtering
 
-[Github](https://github.com/Erlemar/Erlemar.github.io/blob/master/Notebooks/Collaborative_filtering.ipynb) [nbviewer](http://nbviewer.jupyter.org/github/Erlemar/Erlemar.github.io/blob/master/Notebooks/Collaborative_filtering.ipynb)
 
 Recommenders are systems, which predict ratings of users for items. There are several approaches to build such systems and one of them is Collaborative Filtering. 
 This notebook shows several examples of collaborative filtering algorithms.
