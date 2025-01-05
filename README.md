@@ -8,6 +8,8 @@ This portfolio is a collection of notebooks I made for data analysis or machine 
 
 ## Handwritten Digit Recognition with MNIST
 
+[Github](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_handwritten_digit_recognition.ipynb) [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_handwritten_digit_recognition.ipynb)
+
 This project demonstrates the implementation of a machine learning model to classify handwritten digits using the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database). The notebook utilizes TensorFlow and Keras for training a neural network on the dataset. Key tasks include:
 
 - Loading and preprocessing the MNIST dataset.
