@@ -24,56 +24,18 @@ This project highlights foundational deep learning techniques, such as data norm
 
 ### Titanic: Machine Learning from Disaster
 
-
-
 Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem: based on information about Titanic passengers we predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic).
 Titanic dataset provides interesting opportunities for feature engineering.
 
-# Algorithm Selection for Model Counting (#SAT)
+### Algorithm Selection for Model Counting (#SAT)
 
 This project explores the use of machine learning techniques for algorithm selection in the #SAT problem, an extension of Boolean satisfiability. The primary objective is to classify the optimal solver for each instance based on a set of 72 features derived from the problem. Key tasks include:
 
 - **Preprocessing and Feature Selection**: Leveraging Recursive Feature Elimination (RFE) and Principal Component Analysis (PCA) for dimensionality reduction and feature optimization.  
 - **Model Training and Evaluation**: Training a k-Nearest Neighbors (k-NN) classifier, Decision Tree, and Random Forest models to identify the optimal solver for each problem instance.  
-- **Optimization Techniques**: Employing cross-validation, hyperparameter tuning, and feature normalization to enhance model performance and reliability.  
-
-
-# Algorithm Selection for Model Counting (#SAT)
-
-This project explores the use of machine learning techniques for algorithm selection in the #SAT problem, an extension of Boolean satisfiability. The primary objective is to classify the optimal solver for each instance based on a set of 72 features derived from the problem. Key tasks include:
-
-- Preprocessing the dataset for analysis and feature engineering.
-- Training and evaluating a k-Nearest Neighbors (k-NN) classifier.
-- Implementing advanced techniques such as cross-validation, hyperparameter tuning, and feature normalization to optimize model performance.
+- **Optimization Techniques**: Employing cross-validation, hyperparameter tuning, and feature normalization to enhance model performance and reliability.
 
 This project demonstrates foundational techniques in data preprocessing, model evaluation, and algorithmic optimization for solving NP-complete problems.
-
-# Algorithm Selection for Model Counting (#SAT)
-
-This project explores the use of machine learning techniques for algorithm selection in the #SAT problem, an extension of Boolean satisfiability. The primary objective is to classify the optimal solver for each instance based on a set of 72 features derived from the problem. Key tasks include:
-
-- **Preprocessing and Feature Selection**: Leveraging Recursive Feature Elimination (RFE) and Principal Component Analysis (PCA) for dimensionality reduction and feature optimization.  
-- **Model Training and Evaluation**: Training a k-Nearest Neighbors (k-NN) classifier, Decision Tree, and Random Forest models to identify the optimal solver for each problem instance.  
-- **Optimization Techniques**: Employing cross-validation, hyperparameter tuning, and feature normalization to enhance model performance and reliability.  
-
-### Final Model Explanation
-
-The final model, a **Random Forest Classifier**, achieved the best performance with the following configuration:  
-- **Test Size (0.4)**: Balanced training and validation, ensuring generalization to unseen data.  
-- **Best Accuracy (0.77009)**: Demonstrates effective generalization.  
-- **Best CV Score (0.79027)**: Indicates consistent performance across data subsets.  
-- **Hyperparameters**:  
-  - **200 Trees**: Ensures robust predictions through majority voting, minimizing overfitting.  
-  - **Max Features ('sqrt')**: Increases diversity among trees by considering a subset of features at each split.  
-  - **No Max Depth**: Allows trees to capture complex patterns without early stopping.  
-  - **Minimum Samples per Leaf (1) and Split (2)**: Fine-tunes sensitivity to data, optimizing detail captured in splits.  
-
-### Key Results and Insights
-- **Precision and Recall**: Strong in dominant classes like 'addmc' and 'gpmc', indicating effective handling of imbalanced data. Variation in other classes highlights opportunities for further tuning.  
-- **Conclusion**: The Random Forest model delivers high accuracy and reliability. Its hyperparameter configuration ensures suitability for complex classification tasks involving diverse data.
-
-This project demonstrates foundational and advanced techniques in data preprocessing, feature selection, and machine learning model development for solving NP-complete problems. 
-
 
 ## Regression problems.
 
@@ -81,9 +43,6 @@ This project demonstrates foundational and advanced techniques in data preproces
 
 House Prices: Advanced Regression Techniques is a knowledge competition on Kaggle. This is a regression problem: based on information about houses we predict their prices. General description and data are available on [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
 The dataset has a lot of features and many missing values. This gives interesting possibilities for feature transformation and data visualization.
-
-### Loan Prediction
-
 
 
 ## Natural language processing.
