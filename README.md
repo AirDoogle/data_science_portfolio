@@ -24,10 +24,41 @@ This project highlights foundational deep learning techniques, such as data norm
 
 ### Titanic: Machine Learning from Disaster
 
+[Github](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_titanic__knn_nn.ipynb) [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_titanic__knn_nn.ipynb)
+
 Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem: based on information about Titanic passengers we predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic).
 Titanic dataset provides interesting opportunities for feature engineering.
 
+### Image Classification with CIFAR-10
+
+[Github](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_cifar-10_image_categorisation.ipynb) [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_cifar-10_image_categorisation.ipynb)
+
+This project applies deep learning techniques to classify images from the CIFAR-10 dataset, consisting of 60,000 images across 10 categories. The goal is to develop a robust image classification model using convolutional neural networks (CNNs). Key tasks include:  
+
+- **Data Preprocessing and Augmentation**: Normalizing pixel values, applying one-hot encoding, and using data augmentation (random flipping and rotation) to improve generalization.  
+- **Model Development**: Implementing multiple convolutional architectures, including variations with and without pooling layers, batch normalization, and dropout to evaluate trade-offs in accuracy and training time.  
+- **Optimization Techniques**: Using hyperparameter tuning, Adam optimizer, and categorical cross-entropy loss to enhance model performance.  
+- **Evaluation and Trade-offs**: Comparing different model architectures, highlighting trade-offs between computational time and accuracy, and achieving a final test accuracy of **76.24%** with a balanced model structure.  
+
+This project demonstrates key deep learning concepts such as feature extraction, regularization, and performance evaluation in image classification. 
+
+### Bamboo Forest Detection from Satellite Images
+
+[Github](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_bamboo_forest_detection.ipynb) [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_bamboo_forest_detection.ipynb)
+
+This project applies deep learning techniques to detect bamboo forests in satellite imagery. Using convolutional neural networks (CNNs), the model classifies image patches as containing bamboo or not. Key tasks include:  
+
+- **Data Preprocessing and Augmentation**: Segmenting large satellite images into smaller patches using a sliding window approach, normalizing pixel values, and handling class imbalances with computed weights.  
+- **Model Development**: Implementing a CNN with convolutional layers, max pooling, dropout regularization, and batch normalization for robust classification.  
+- **Optimization and Evaluation**: Using binary cross-entropy loss, Adam optimizer, and accuracy metrics to assess model performance. Final model achieves strong classification accuracy and generalizes well.  
+- **Prediction and Visualization**: Generating a probability heatmap over satellite images to highlight bamboo forest regions, scaling and overlaying predictions for interpretability.  
+
+This project demonstrates advanced computer vision techniques in remote sensing, showcasing how deep learning can assist in environmental monitoring and land classification.  
+
+
 ### Algorithm Selection for Model Counting (#SAT)
+
+[Github](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_sat_algorithm_selection.ipynb) [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_sat_algorithm_selection.ipynb)
 
 This project explores the use of machine learning techniques for algorithm selection in the #SAT problem, an extension of Boolean satisfiability. The primary objective is to classify the optimal solver for each instance based on a set of 72 features derived from the problem. Key tasks include:
 
