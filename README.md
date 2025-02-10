@@ -68,7 +68,7 @@ This project explores the use of machine learning techniques for algorithm selec
 
 This project demonstrates foundational techniques in data preprocessing, model evaluation, and algorithmic optimization for solving NP-complete problems.
 
-## Regression problems.
+<!-- ## Regression problems.
 
 ### House Prices: Advanced Regression Techniques
 
@@ -124,3 +124,4 @@ I have a dataset with telematic information about 10 cars driving during one day
 
 Recommenders are systems, which predict ratings of users for items. There are several approaches to build such systems and one of them is Collaborative Filtering. 
 This notebook shows several examples of collaborative filtering algorithms.
+-->
