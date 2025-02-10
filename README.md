@@ -31,16 +31,18 @@ Titanic dataset provides interesting opportunities for feature engineering.
 
 ### Image Classification with CIFAR-10
 
-[Github](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_cifar-10_image_categorisation.ipynb) [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_cifar-10_image_categorisation.ipynb)
+[GitHub](https://github.com/AirDoogle/data_science_portfolio/blob/main/ml_cifar-10_image_categorisation.ipynb) | [nbviewer](https://nbviewer.org/github/AirDoogle/data_science_portfolio/blob/main/ml_cifar-10_image_categorisation.ipynb)
 
-This project applies deep learning techniques to classify images from the CIFAR-10 dataset, consisting of 60,000 images across 10 categories. The goal is to develop a robust image classification model using convolutional neural networks (CNNs). Key tasks include:  
+The CIFAR-10 dataset is a widely used benchmark in computer vision for image classification tasks. In this project, I applied deep learning techniques to classify images from the CIFAR-10 dataset. This is a multi-class classification problem: based on image data, to predict which of the ten categories the image belongs to, such as airplanes, cars, birds etc. The dataset and description are available on the [CIFAR-10 website](https://www.cs.toronto.edu/~kriz/cifar.html). Working with CIFAR-10 allowed me to explore convolutional neural networks (CNNs), data augmentation, and techniques to improve model generalization.
+
+<!--This project applies deep learning techniques to classify images from the CIFAR-10 dataset, consisting of 60,000 images across 10 categories. The goal is to develop a robust image classification model using convolutional neural networks (CNNs). Key tasks include:  
 
 - **Data Preprocessing and Augmentation**: Normalizing pixel values, applying one-hot encoding, and using data augmentation (random flipping and rotation) to improve generalization.  
 - **Model Development**: Implementing multiple convolutional architectures, including variations with and without pooling layers, batch normalization, and dropout to evaluate trade-offs in accuracy and training time.  
 - **Optimization Techniques**: Using hyperparameter tuning, Adam optimizer, and categorical cross-entropy loss to enhance model performance.  
 - **Evaluation and Trade-offs**: Comparing different model architectures, highlighting trade-offs between computational time and accuracy, and achieving a final test accuracy of **76.24%** with a balanced model structure.  
 
-This project demonstrates key deep learning concepts such as feature extraction, regularization, and performance evaluation in image classification. 
+This project demonstrates key deep learning concepts such as feature extraction, regularization, and performance evaluation in image classification.-->
 
 ### Bamboo Forest Detection from Satellite Images
 
