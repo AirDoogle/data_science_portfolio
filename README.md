@@ -57,6 +57,7 @@ This project applies deep learning techniques to detect bamboo forests in satell
 
 This project demonstrates advanced computer vision techniques in remote sensing, showcasing how deep learning can assist in environmental monitoring and land classification.  
 
+![image](https://github.com/AirDoogle/data_science_portfolio/blob/main/works_in_progress/ml_bamboo_forest_detection_result.png)
 
 ### Algorithm Selection for Model Counting (#SAT)
 
